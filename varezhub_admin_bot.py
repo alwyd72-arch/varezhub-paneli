@@ -324,7 +324,4 @@ if __name__ == "__main__":
     )
     api_thread.start()
     print("✅ API: http://localhost:5001")
-
-    print("✅ Bot polling başladı...")
-    bot.infinity_polling()
   
