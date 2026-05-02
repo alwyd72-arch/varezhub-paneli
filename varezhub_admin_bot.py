@@ -306,6 +306,10 @@ def api_market_log():
 @app.route("/health")
 def health():
     return jsonify({"status": "ok", "time": time.strftime("%H:%M:%S")})
+    @app.route("/panel")
+def panel():
+    with open("index.html", encoding="utf-8") as f:
+        return f.read()
 
 # ============================================================
 # ÇALIŞTIR — Bot + API aynı anda
