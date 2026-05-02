@@ -319,7 +319,7 @@ if __name__ == "__main__":
 
     # Flask API ayrı thread'de çalışsın
     api_thread = threading.Thread(
-        target=lambda: app.run(host="0.0.0.0", port=5001, debug=False),
+        target=lambda: app.run(host="0.0.0.0", port=8080, debug=False),
         daemon=True
     )
     api_thread.start()
