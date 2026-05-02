@@ -514,7 +514,3 @@ def text_handler(m):
         bot.send_message(uid, "🆘 <b>Destek için:</b>", reply_markup=kb)
 
     db.close()
-
-print("🚀 Bot başlatılıyor...")
-bot.infinity_polling()
-  
