@@ -303,7 +303,7 @@ def api_market_log():
     db.close()
     return jsonify(rows)
 
-@@app.route("/health")
+@app.route("/health")
 def health():
     return jsonify({"status": "ok", "time": time.strftime("%H:%M:%S")})
 
