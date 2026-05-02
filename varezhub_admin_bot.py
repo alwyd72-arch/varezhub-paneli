@@ -20,7 +20,7 @@ DB_PATH = "nexus_elite_v28.db"           # Market botu ile AYNI DB
 
 bot = telebot.TeleBot(ADMIN_TOKEN, parse_mode="HTML")
 app = Flask(__name__)
-CORS(app)
+CORS(app, origins="*")
 
 # ============================================================
 # VERİTABANI
