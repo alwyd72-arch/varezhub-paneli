@@ -13,7 +13,7 @@ load_dotenv()
 # ============================================================
 # AYARLAR
 # ============================================================
-ADMIN_TOKEN = ("8645221526:AAHE8i4y24KisQory-S_mkDDeL7CDU5uX48")
+ADMIN_TOKEN = ("8645221526:AAElWzzdHQ4Ico8BWayFEDB-DH-4Z1fB9sk")
 MARKET_TOKEN = ("8694381551:AAHOhVeKArNlOS20lT3437hILT9t9LVSkLE")
 ADMINS = [8434939976]
 DB_PATH = "nexus_elite_v28.db"           # Market botu ile AYNI DB
