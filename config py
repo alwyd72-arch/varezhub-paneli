@@ -1,0 +1,35 @@
+# ─────────────────────────────────────────
+# config.py — Bot Ayarları
+# ─────────────────────────────────────────
+
+# Bot token (@BotFather'dan alın)
+BOT_TOKEN = "8598706974:AAENlKCpRausZnjkwMs7RN7WiilIngKfLto"
+
+# Admin Telegram ID (sayısal)
+ADMIN_ID = 8434939976
+
+# Admin kullanıcı adı (@'siz)
+ADMIN_USERNAME = "canprimelogbot"
+
+# ─── Zorunlu Kanallar ───
+REQUIRED_CHANNELS = [
+    "@duymadimbilmiyorum",
+    "@canyedek1"  
+]
+CHANNEL_NAMES = [
+    "Arşiv Kanalı",
+    "Yedek Kanal"
+]
+
+# ─── Ücretsiz Kullanım Limiti ───
+FREE_DAILY_LIMIT = 4   # günlük ücretsiz çekim hakkı
+
+# ─── VIP Fiyatı (Telegram Stars) ───
+VIP_PRICE_STARS = 15
+
+# ─── API Adresleri (değiştirme) ───
+WAZELY_API     = "https://wazely.vercel.app/api/trlog"
+PROXYSCRAPE_API = (
+    "https://api.proxyscrape.com/v4/free-proxy-list/get"
+    "?request=display_proxies&proxy_format=ipport&format=text"
+)
