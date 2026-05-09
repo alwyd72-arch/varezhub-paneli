@@ -1,5 +1,0 @@
-flask
-flask-cors
-pyTelegramBotAPI
-python-dotenv
-requests
